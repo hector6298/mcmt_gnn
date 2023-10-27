@@ -177,6 +177,7 @@ if __name__ == "__main__":
         metrics=["Accuracy", "Precision", "Recall"],
         resume_training_flag=training_config["load_previous_train_state"],
         use_tensorboard=True,
+        log_training=True
     )
 
     # Check if there are previous checkpoints. Resume training if there are
